@@ -1,0 +1,112 @@
+{
+	"count": 8872,
+	"next": "https://api-test.zerofox.com/2.0/alerts/?cursor=cD0yMDI0LTAxLTI1KzE4JTNBMTMlM0EwNSUyQjAwJTNBMDA%3D&enterprise_id=2831&page_size=2",
+	"previous": null,
+	"page_size": 2,
+	"alerts": [
+		{
+			"id": 39229922,
+			"rule": {
+				"id": 75718,
+				"name": "WebRisk Disruption",
+				"rule_group": {
+					"id": 31743,
+					"name": "Domain Security"
+				}
+			},
+			"alert_type": "url",
+			"entity": {
+				"id": 74701303,
+				"name": "Disruption request",
+				"image": "",
+				"labels": [],
+				"policy": {
+					"id": 74854,
+					"name": "Disruption requests"
+				},
+				"entity_group": {
+					"id": 596,
+					"name": "Default"
+				}
+			},
+			"perpetrator": {
+				"name": "http://test.com/551924?_zf_proxy=disruption_disruption_webrisk",
+				"display_name": "http://test.com/551924?_zf_proxy=disruption_disruption_webrisk",
+				"id": 21460580,
+				"url": "http://test.com/551924?_zf_proxy=disruption_disruption_webrisk",
+				"content": "",
+				"type": "page",
+				"timestamp": "2024-01-25T18:50:32+00:00",
+				"network": "surface_web"
+			},
+			"created": "2024-01-25T18:50:33+00:00",
+			"network": {
+				"id": 2959,
+				"network_name": "surface_web",
+				"display_name": "Web Search",
+				"image_url": "https://s3.us-west-2.amazonaws.com/zerofox-datasource-external-static/surface-web-data-source-logo-200x200.png"
+			},
+			"risk_rating": "4",
+			"tags": [],
+			"status": "takedown_requested",
+			"offending_content_url": "http://test.com/551924?_zf_proxy=disruption_disruption_webrisk",
+			"reviewed": true,
+			"escalated": false,
+			"assignee": "",
+			"protected_social_object": null,
+			"entered_by": "eramirez@zerofox.com"
+		},
+		{
+			"id": 39229920,
+			"rule": {
+				"id": 75718,
+				"name": "WebRisk Disruption",
+				"rule_group": {
+					"id": 31743,
+					"name": "Domain Security"
+				}
+			},
+			"alert_type": "url",
+			"entity": {
+				"id": 74701303,
+				"name": "Disruption request",
+				"image": "",
+				"labels": [],
+				"policy": {
+					"id": 74854,
+					"name": "Disruption requests"
+				},
+				"entity_group": {
+					"id": 596,
+					"name": "Default"
+				}
+			},
+			"perpetrator": {
+				"name": "http://test.com/913676?_zf_proxy=disruption_disruption_webrisk",
+				"display_name": "http://test.com/913676?_zf_proxy=disruption_disruption_webrisk",
+				"id": 21460454,
+				"url": "http://test.com/913676?_zf_proxy=disruption_disruption_webrisk",
+				"content": "",
+				"type": "page",
+				"timestamp": "2024-01-25T18:13:05+00:00",
+				"network": "surface_web"
+			},
+			"created": "2024-01-25T18:13:05+00:00",
+			"network": {
+				"id": 2959,
+				"network_name": "surface_web",
+				"display_name": "Web Search",
+				"image_url": "https://s3.us-west-2.amazonaws.com/zerofox-datasource-external-static/surface-web-data-source-logo-200x200.png"
+			},
+			"risk_rating": "4",
+			"tags": [],
+			"status": "takedown_requested",
+			"offending_content_url": "http://test.com/913676?_zf_proxy=disruption_disruption_webrisk",
+			"reviewed": true,
+			"escalated": false,
+			"assignee": "",
+			"protected_social_object": null,
+			"entered_by": "eramirez@zerofox.com"
+		}
+	]
+}

@@ -1,0 +1,87 @@
+{
+	"alert": {
+		"alert_type": "url",
+		"logs": [
+			{
+				"id": 56439259,
+				"timestamp": "2024-01-25T19:00:39+00:00",
+				"actor": "dev-takedown-api-attachments",
+				"subject": "",
+				"action": "request takedown"
+			},
+			{
+				"id": 56439258,
+				"timestamp": "2024-01-25T18:50:36+00:00",
+				"actor": "dev-managed-alerts@zerofox.com",
+				"subject": "",
+				"action": "validate"
+			},
+			{
+				"id": 56439257,
+				"timestamp": "2024-01-25T18:50:33+00:00",
+				"actor": "eramirez@zerofox.com",
+				"subject": "",
+				"action": "open"
+			}
+		],
+		"offending_content_url": "http://test.com/551924?_zf_proxy=disruption_disruption_webrisk",
+		"asset_term": null,
+		"assignee": "",
+		"entity": {
+			"id": 74701303,
+			"name": "Disruption request",
+			"image": "",
+			"labels": [],
+			"entity_group": {
+				"id": 596,
+				"name": "Default"
+			}
+		},
+		"entity_term": null,
+		"content_created_at": "2024-01-25T18:50:32+00:00",
+		"id": 39229922,
+		"protected_account": null,
+		"severity": 4,
+		"perpetrator": {
+			"name": "http://test.com/551924?_zf_proxy=disruption_disruption_webrisk",
+			"display_name": "http://test.com/551924?_zf_proxy=disruption_disruption_webrisk",
+			"id": 21460580,
+			"url": "http://test.com/551924?_zf_proxy=disruption_disruption_webrisk",
+			"content": "",
+			"type": "page",
+			"timestamp": "2024-01-25T18:50:32+00:00",
+			"network": "surface_web"
+		},
+		"rule_group_id": 31743,
+		"asset": {
+			"id": 74701303,
+			"name": "Disruption request",
+			"image": "",
+			"labels": [],
+			"entity_group": {
+				"id": 596,
+				"name": "Default"
+			}
+		},
+		"entered_by": "eramirez@zerofox.com",
+		"metadata": "{\"alert_reasons\": [{\"key\": {\"text_content\": \"\"}, \"value\": {\"style\": {\"color\": \"#000000\", \"font-weight\": \"bold\"}, \"text_content\": \"Threat Submitted by User\"}}], \"content_type\": \"page\", \"content_url\": \"http://test.com/551924?_zf_proxy=disruption_disruption_webrisk\", \"justification\": \"malware\", \"gwr\": {\"threatInfo\": {\"abuseType\": \"ABUSE_TYPE_UNSPECIFIED\", \"threatConfidence\": {\"score\": 0.6, \"level\": \"MEDIUM\"}, \"threatJustification\": {\"labels\": [\"MANUAL_VERIFICATION\", \"USER_REPORT\"], \"comments\": [\"comment 1\", \"comment 2\"]}}, \"threatDiscovery\": {\"platform\": \"ANDROID\", \"regionCodes\": [\"CL\", \"AR\"]}}}",
+		"status": "Takedown:Requested",
+		"timestamp": "2024-01-25T18:50:33+00:00",
+		"rule_name": "WebRisk Disruption",
+		"last_modified": "2024-01-25T19:00:39Z",
+		"protected_locations": null,
+		"darkweb_term": null,
+		"business_network": null,
+		"reviewed": true,
+		"escalated": false,
+		"network": "surface_web",
+		"protected_social_object": null,
+		"notes": "test notes",
+		"reviews": [],
+		"content_actions": [],
+		"rule_id": 75718,
+		"entity_account": null,
+		"entity_email_receiver_id": null,
+		"tags": []
+	}
+}

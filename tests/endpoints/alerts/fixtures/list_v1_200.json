@@ -1,0 +1,167 @@
+{
+	"count": 11191,
+	"next": "https://api-test.zerofox.com/1.1/alerts/?enterprise_id=2831&limit=2&offset=2",
+	"previous": null,
+	"page_size": 2,
+	"num_pages": 5596,
+	"alerts": [
+		{
+			"alert_type": "search query",
+			"logs": [
+				{
+					"id": 514148815,
+					"timestamp": "2024-01-25T18:15:23+00:00",
+					"actor": "",
+					"subject": "",
+					"action": "open"
+				}
+			],
+			"offending_content_url": "https://www.eurekalert.org/news-releases/1031968",
+			"asset_term": {
+				"id": 873850,
+				"name": "advanced_test",
+				"deleted": false
+			},
+			"assignee": "",
+			"entity": {
+				"id": 2457499,
+				"name": "Cristian Test",
+				"image": "",
+				"labels": [],
+				"entity_group": {
+					"id": 2852,
+					"name": "Default"
+				}
+			},
+			"entity_term": {
+				"id": 873850,
+				"name": "advanced_test",
+				"deleted": false
+			},
+			"content_created_at": "2018-01-01T00:00:00+00:00",
+			"id": 281753938,
+			"severity": 5,
+			"perpetrator": {
+				"name": "FDG PET/CT imaging after just one week may pr | EurekAlert!",
+				"display_name": "FDG PET/CT imaging after just one week may pr | EurekAlert!",
+				"id": 555409124,
+				"url": "https://www.eurekalert.org/news-releases/1031968",
+				"content": "Advanced Search Home News Releases Multimedia Meetings Login Register News Release 24-Jan-2024 FDG PET/CT imaging after just one week may predict treatment response in patients with advanced melanoma Peer-Reviewed Publication American Association for Cancer Research Bottom Line: Imaging the tumors of patients with advanced melanoma receiving pembrolizumab (Keytruda) after only one week—rather than the standard of around three months—identified metabolic changes that corresponded with treatment response and progression-free survival (PFS). Journal in Which the Study was Published: Clinical Cancer Research, a journal of the American Association for Cancer Research (AACR) Author: Michael D. Farwell, MD, an associate professor of radiology at the Hospital of the University of Pennsylvania Background: Cancer immunotherapy has helped transform the standard of care for many malignancies, but not all patients respond to therapy, and the treatment can cause severe adverse events. Typically, immunotherapy patients are imaged around three months after starting treatment to monitor their progress, with some more recent trials exploring the value of performing scans after three to six weeks, and in some cases closer to two weeks. But Farwell designed a study to explore if results could be observed even sooner. The goal was to identify a noninvasive imaging biomarker that could guide the management of patients on these therapies and avoid toxicity in patients not likely to benefit. Farwell and his colleagues hypothesized that by using 18F-fluorodeoxyglucose (FDG) PET/CT, which is one of the most common and readily available ways to test for cancer, they could see if patients experienced metabolic changes in tumors after a week on therapy. When a patient responds to immunotherapy, activated immune cells infiltrate into the tumor, so the scans are expected to first show an increase in FDG activity, which Farwell calls a metabolic flare (MF). Then, as the tumor responds to therapy, the tumor cells die and pass back through a stable metabolism phase and ultimately end at a metabolic response (MR), indicated by a decrease in FDG activity. In contrast, the tumors of nonresponding patients are expected to maintain stable metabolism. “If you’re imaging after three weeks, you’re unlikely to catch this flare, because response to immunotherapy happens so quickly and, in some cases, it’s already done—there’s no tumor left,” Farwell explained. “The other nice thing about imaging at a week is we are looking at this response curve over a pretty short interval. If you wait to monitor progress over longer intervals, it means the tumor has more time to grow in nonresponders, which can complicate the analysis.” How the Study was Conducted: To test their hypothesis, the researchers recruited 21 patients with advanced melanoma scheduled to initiate pembrolizumab. As part of the trial, patients were required to have at least one measurable lesion and could not have received previous anti-PD-1 or anti-PD-L1 therapies. FDG PET/CT imaging was performed on each patient within four weeks prior to their start of therapy and then at about one week after the first dose of pembrolizumab. Two patients did not complete both scans, so their results were excluded. Results: FDG activity for each lesion was measured using the maximum standardized uptake value (SUVMAX). For the purposes of this study, an MF was defined as a greater than 70% increase in tumor SUVMAX and an MR as a greater than 30% decrease in tumor SUVMAX. An MF or MR was identified in 55% of the patients who responded to treatment (6 out of 11) and 0% of patients who did not respond (0 out of 8). An MF or MR also correlated with longer survival, with 83% of the MF-MR group seeing an overall survival of three years compared to 62% in the group with stable metabolism. Additionally, median PFS was greater than 38 months in the MF-MR group and 2.8 months in the group with stable metabolism. Author’s Comments: Farwell said they not only observed heterogeneity in the kinetics of response between patients, they also observed heterogeneity among lesions in the same patient. That is a challenge Farwell hopes to address in future studies. Further, because tumors pass through a stable metabolism phase between MF and MR responses, it will be key to identify if a tumor with stable metabolism is in fact responding but is in between reaction phases. Farwell says some potential solutions for that include layering on companion studies such as blood tests, a CD8 PET scan, or serial FDG PET/CT imaging to better plot out the change over time. “While the results need to be validated, this has the potential to be broadly applicable and offer physicians the ability to deescalate therapy or avoid surgery in patients who are responding, identify nonresponders who may need an escalation of therapy, and to be used in phase I clinical trials to test if a therapy is working,” Farwell explained. Study Limitations: Limitations of the study include a relatively small sample size from a single institution, which did not include patients with stable disease. Also, there were variable intervals between a patient’s first scan prior to therapy initiation and their scan after therapy initiation. Additionally, four different PET/CT scanners were used, which could have caused variability in SUV measurements. Funding & Disclosures: The study was supported by research grants from the Investigator Studies Program of Merck Sharp & Dohme LLC, ImaginAb, the National Cancer Institute of the National Institutes of Health (including the Specialized Program of Research Excellence (SPORE) in Skin Cancer), the RSNA Resident/Fellow Research Grant, the Tara Miller Melanoma Foundation, the Melanoma Research Alliance, the David and Hallee Adelman Immunotherapy Research Fund, and the Parker Institute for Cancer Immunotherapy Bridge Scholar Award. Farwell also reports grants from Bristol Myers Squibb and Carisma Therapeutics as well as personal fees from Abcuro, Inc. outside the submitted work. Journal Clinical Cancer Research DOI 10.1158/1078-0432.CCR-23-2390 Article Title FDG PET/CT Imaging 1 Week after a Single Dose of Pembrolizumab Predicts Treatment Response in Patients with Advanced Melanoma Article Publication Date 24-Jan-2024 COI Statement The study was supported by research grants from the Investigator Studies Program of Merck Sharp & Dohme LLC, ImaginAb, the National Cancer Institute of the National Institutes of Health (including the Specialized Program of Research Excellence (SPORE) in Skin Cancer), the RSNA Resident/Fellow Research Grant, the Tara Miller Melanoma Foundation, the Melanoma Research Alliance, the David and Hallee Adelman Immunotherapy Research Fund, and the Parker Institute for Cancer Immunotherapy Bridge Scholar Award. Farwell also reports grants from Bristol Myers Squibb and Carisma Therapeutics as well as personal fees from Abcuro, Inc. outside the submitted work. Disclaimer: AAAS and EurekAlert! are not responsible for the accuracy of news releases posted to EurekAlert! by contributing institutions or for the use of any information through the EurekAlert system. Media Contact Kathleen Venango American Association for Cancer Research kathleen.venango@aacr.org Office: 215-309-4349 Cell: 215-290-5408 More on this News Release FDG PET/CT imaging after just one week may predict treatment response in patients with advanced melanoma American Association for Cancer Research Journal Clinical Cancer Research DOI 10.1158/1078-0432.CCR-23-2390 Keywords /Health and medicine/Diseases and disorders/Cancer/Skin cancer/Melanoma /Research methods/Imaging Original Source https://www.aacr.org/about-the-aacr/newsroom/news-releases/fdg-pet-ct-imaging-after-just-one-week-may-predict-treatment-response-in-patients-with-advanced-melanoma/ Copyright © 2024 by the American Association for the Advancement of Science (AAAS) facebook.com/EurekAlert @EurekAlert youtube.com/EurekAlert Help / FAQ Services Eligibility Guidelines Contact EurekAlert! Terms & Conditions DMCA Privacy Policy Disclaimer Copyright © 2024 by the American Association for the Advancement of Science (AAAS)",
+				"type": "page",
+				"timestamp": "2018-01-01T00:00:00+00:00",
+				"network": "advanced_web_search"
+			},
+			"rule_group_id": 2,
+			"asset": {
+				"id": 2457499,
+				"name": "Cristian Test",
+				"image": "",
+				"labels": [],
+				"entity_group": {
+					"id": 2852,
+					"name": "Default"
+				}
+			},
+			"entered_by": "",
+			"metadata": "{\"ai_confidence_display\":[{\"color\":\"#0072ce\",\"detections\":[{\"confidence\":0.9362719655,\"label\":\"English\"}],\"icon\":\"chat\",\"name\":\"Language Detection\"}],\"content_type\":\"page\",\"content_url\":\"https://www.eurekalert.org/news-releases/1031968\",\"enrichment\":{\"analysis-message-mapper\":{\"enterpriseID\":2831,\"entityID\":2457499,\"network\":\"advanced_web_search\",\"relation\":\"search_query\",\"serviceOrigin\":\"sdk-recent_web_content\",\"texts\":[{\"field\":\"content.text\",\"item\":\"Advanced Search Home News Releases Multimedia Meetings Login Register News Release 24-Jan-2024 FDG PET/CT imaging after just one week may predict treatment response in patients with advanced melanoma Peer-Reviewed Publication American Association for Cancer Research Bottom Line: Imaging the tumors of patients with advanced melanoma receiving pembrolizumab (Keytruda) after only one week—rather than the standard of around three months—identified metabolic changes that corresponded with treatment response and progression-free survival (PFS). Journal in Which the Study was Published: Clinical Cancer Research, a journal of the American Association for Cancer Research (AACR) Author: Michael D. Farwell, MD, an associate professor of radiology at the Hospital of the University of Pennsylvania Background: Cancer immunotherapy has helped transform the standard of care for many malignancies, but not all patients respond to therapy, and the treatment can cause severe adverse events. Typically, immunotherapy patients are imaged around three months after starting treatment to monitor their progress, with some more recent trials exploring the value of performing scans after three to six weeks, and in some cases closer to two weeks. But Farwell designed a study to explore if results could be observed even sooner. The goal was to identify a noninvasive imaging biomarker that could guide the management of patients on these therapies and avoid toxicity in patients not likely to benefit. Farwell and his colleagues hypothesized that by using 18F-fluorodeoxyglucose (FDG) PET/CT, which is one of the most common and readily available ways to test for cancer, they could see if patients experienced metabolic changes in tumors after a week on therapy. When a patient responds to immunotherapy, activated immune cells infiltrate into the tumor, so the scans are expected to first show an increase in FDG activity, which Farwell calls a metabolic flare (MF). Then, as the tumor responds to therapy, the tumor cells die and pass back through a stable metabolism phase and ultimately end at a metabolic response (MR), indicated by a decrease in FDG activity. In contrast, the tumors of nonresponding patients are expected to maintain stable metabolism. “If you’re imaging after three weeks, you’re unlikely to catch this flare, because response to immunotherapy happens so quickly and, in some cases, it’s already done—there’s no tumor left,” Farwell explained. “The other nice thing about imaging at a week is we are looking at this response curve over a pretty short interval. If you wait to monitor progress over longer intervals, it means the tumor has more time to grow in nonresponders, which can complicate the analysis.” How the Study was Conducted: To test their hypothesis, the researchers recruited 21 patients with advanced melanoma scheduled to initiate pembrolizumab. As part of the trial, patients were required to have at least one measurable lesion and could not have received previous anti-PD-1 or anti-PD-L1 therapies. FDG PET/CT imaging was performed on each patient within four weeks prior to their start of therapy and then at about one week after the first dose of pembrolizumab. Two patients did not complete both scans, so their results were excluded. Results: FDG activity for each lesion was measured using the maximum standardized uptake value (SUVMAX). For the purposes of this study, an MF was defined as a greater than 70% increase in tumor SUVMAX and an MR as a greater than 30% decrease in tumor SUVMAX. An MF or MR was identified in 55% of the patients who responded to treatment (6 out of 11) and 0% of patients who did not respond (0 out of 8). An MF or MR also correlated with longer survival, with 83% of the MF-MR group seeing an overall survival of three years compared to 62% in the group with stable metabolism. Additionally, median PFS was greater than 38 months in the MF-MR group and 2.8 months in the group with stable metabolism. Author’s Comments: Farwell said they not only observed heterogeneity in the kinetics of response between patients, they also observed heterogeneity among lesions in the same patient. That is a challenge Farwell hopes to address in future studies. Further, because tumors pass through a stable metabolism phase between MF and MR responses, it will be key to identify if a tumor with stable metabolism is in fact responding but is in between reaction phases. Farwell says some potential solutions for that include layering on companion studies such as blood tests, a CD8 PET scan, or serial FDG PET/CT imaging to better plot out the change over time. “While the results need to be validated, this has the potential to be broadly applicable and offer physicians the ability to deescalate therapy or avoid surgery in patients who are responding, identify nonresponders who may need an escalation of therapy, and to be used in phase I clinical trials to test if a therapy is working,” Farwell explained. Study Limitations: Limitations of the study include a relatively small sample size from a single institution, which did not include patients with stable disease. Also, there were variable intervals between a patient’s first scan prior to therapy initiation and their scan after therapy initiation. Additionally, four different PET/CT scanners were used, which could have caused variability in SUV measurements. Funding \\u0026 Disclosures: The study was supported by research grants from the Investigator Studies Program of Merck Sharp \\u0026 Dohme LLC, ImaginAb, the National Cancer Institute of the National Institutes of Health (including the Specialized Program of Research Excellence (SPORE) in Skin Cancer), the RSNA Resident/Fellow Research Grant, the Tara Miller Melanoma Foundation, the Melanoma Research Alliance, the David and Hallee Adelman Immunotherapy Research Fund, and the Parker Institute for Cancer Immunotherapy Bridge Scholar Award. Farwell also reports grants from Bristol Myers Squibb and Carisma Therapeutics as well as personal fees from Abcuro, Inc. outside the submitted work. Journal Clinical Cancer Research DOI 10.1158/1078-0432.CCR-23-2390 Article Title FDG PET/CT Imaging 1 Week after a Single Dose of Pembrolizumab Predicts Treatment Response in Patients with Advanced Melanoma Article Publication Date 24-Jan-2024 COI Statement The study was supported by research grants from the Investigator Studies Program of Merck Sharp \\u0026 Dohme LLC, ImaginAb, the National Cancer Institute of the National Institutes of Health (including the Specialized Program of Research Excellence (SPORE) in Skin Cancer), the RSNA Resident/Fellow Research Grant, the Tara Miller Melanoma Foundation, the Melanoma Research Alliance, the David and Hallee Adelman Immunotherapy Research Fund, and the Parker Institute for Cancer Immunotherapy Bridge Scholar Award. Farwell also reports grants from Bristol Myers Squibb and Carisma Therapeutics as well as personal fees from Abcuro, Inc. outside the submitted work. Disclaimer: AAAS and EurekAlert! are not responsible for the accuracy of news releases posted to EurekAlert! by contributing institutions or for the use of any information through the EurekAlert system. Media Contact Kathleen Venango American Association for Cancer Research kathleen.venango@aacr.org Office: 215-309-4349 Cell: 215-290-5408 More on this News Release FDG PET/CT imaging after just one week may predict treatment response in patients with advanced melanoma American Association for Cancer Research Journal Clinical Cancer Research DOI 10.1158/1078-0432.CCR-23-2390 Keywords /Health and medicine/Diseases and disorders/Cancer/Skin cancer/Melanoma /Research methods/Imaging Original Source https://www.aacr.org/about-the-aacr/newsroom/news-releases/fdg-pet-ct-imaging-after-just-one-week-may-predict-treatment-response-in-patients-with-advanced-melanoma/ Copyright © 2024 by the American Association for the Advancement of Science (AAAS) facebook.com/EurekAlert @EurekAlert youtube.com/EurekAlert Help / FAQ Services Eligibility Guidelines Contact EurekAlert! Terms \\u0026 Conditions DMCA Privacy Policy Disclaimer Copyright © 2024 by the American Association for the Advancement of Science (AAAS)\"}],\"type\":\"page\",\"urls\":[{\"field\":\"content.text\",\"item\":\"https://www.aacr.org/about-the-aacr/newsroom/news-releases/fdg-pet-ct-imaging-after-just-one-week-may-predict-treatment-response-in-patients-with-advanced-melanoma/\"}]},\"language-detection\":{\"confidence\":0.9362719655,\"detected_language\":\"en\",\"detection_method\":\"languageProbability\",\"iso_639_3\":\"eng\",\"language_probability\":{\"de\":0.0037050035,\"en\":0.9362719655,\"ru\":0.0035946753}},\"nlp-utils\":{\"lemmatized_and_stop_words_filter\":\"Advanced Search Home News Releases Multimedia Meetings Login Register News Release 24-Jan-2024 FDG PET / CT image week predict treatment response patient advance melanoma Peer - Reviewed Publication American Association Cancer Research Line : Imaging tumor patient advance melanoma receive pembrolizumab ( Keytruda ) week — standard month — identify metabolic change correspond treatment response progression - free survival ( PFS ) . Journal Study Published : Clinical Cancer Research , journal American Association Cancer Research ( AACR ) Author : Michael D. Farwell , MD , associate professor radiology Hospital University Pennsylvania Background : Cancer immunotherapy help transform standard care malignancy , patient respond therapy , treatment cause severe adverse event . Typically , immunotherapy patient image month start treatment monitor progress , recent trial explore value perform scan week , case close week . Farwell design study explore result observe soon . goal identify noninvasive image biomarker guide management patient therapy avoid toxicity patient likely benefit . Farwell colleague hypothesize 18F - fluorodeoxyglucose ( FDG ) PET / CT , common readily available way test cancer , patient experience metabolic change tumor week therapy . patient respond immunotherapy , activate immune cell infiltrate tumor , scan expect increase FDG activity , Farwell call metabolic flare ( MF ) . , tumor respond therapy , tumor cell die pass stable metabolism phase ultimately end metabolic response ( MR ) , indicate decrease FDG activity . contrast , tumor nonresponding patient expect maintain stable metabolism . “ image week , unlikely catch flare , response immunotherapy happen quickly , case , — tumor leave , ” Farwell explain . “ nice thing image week look response curve pretty short interval . wait monitor progress long interval , mean tumor time grow nonresponders , complicate analysis . ” Study Conducted : test hypothesis , researcher recruit 21 patient advance melanoma schedule initiate pembrolizumab . trial , patient require measurable lesion receive previous anti - PD-1 anti - PD - L1 therapy . FDG PET / CT image perform patient week prior start therapy week dose pembrolizumab . patient complete scan , result exclude . Results : FDG activity lesion measure maximum standardize uptake value ( SUVMAX ) . purpose study , MF define great 70 % increase tumor SUVMAX MR great 30 % decrease tumor SUVMAX . MF MR identify 55 % patient respond treatment ( 6 11 ) 0 % patient respond ( 0 8) . MF MR correlate long survival , 83 % MF - MR group see overall survival year compare 62 % group stable metabolism . Additionally , median PFS great 38 month MF - MR group 2.8 month group stable metabolism . Author Comments : Farwell say observe heterogeneity kinetic response patient , observe heterogeneity lesion patient . challenge Farwell hope address future study . , tumor pass stable metabolism phase MF MR response , key identify tumor stable metabolism fact respond reaction phasis . Farwell say potential solution include layer companion study blood test , CD8 PET scan , serial FDG PET / CT image well plot change time . “ result need validate , potential broadly applicable offer physician ability deescalate therapy avoid surgery patient respond , identify nonresponders need escalation therapy , phase clinical trial test therapy work , ” Farwell explain . Study Limitations : Limitations study include relatively small sample size single institution , include patient stable disease . , variable interval patient scan prior therapy initiation scan therapy initiation . Additionally , different PET / CT scanner , cause variability SUV measurement . Funding \\u0026 Disclosures : study support research grant Investigator Studies Program Merck Sharp \\u0026 Dohme LLC , ImaginAb , National Cancer Institute National Institutes Health ( include Specialized Program Research Excellence ( SPORE ) Skin Cancer ) , RSNA Resident / Fellow Research Grant , Tara Miller Melanoma Foundation , Melanoma Research Alliance , David Hallee Adelman Immunotherapy Research Fund , Parker Institute Cancer Immunotherapy Bridge Scholar Award . Farwell report grant Bristol Myers Squibb Carisma Therapeutics personal fee Abcuro , Inc. outside submit work . Journal Clinical Cancer Research DOI 10.1158/1078 - 0432.CCR-23 - 2390 Article Title FDG PET / CT Imaging 1 Week Single Dose Pembrolizumab Predicts Treatment Response Patients Advanced Melanoma Article Publication Date 24-Jan-2024 COI Statement study support research grant Investigator Studies Program Merck Sharp \\u0026 Dohme LLC , ImaginAb , National Cancer Institute National Institutes Health ( include Specialized Program Research Excellence ( SPORE ) Skin Cancer ) , RSNA Resident / Fellow Research Grant , Tara Miller Melanoma Foundation , Melanoma Research Alliance , David Hallee Adelman Immunotherapy Research Fund , Parker Institute Cancer Immunotherapy Bridge Scholar Award . Farwell report grant Bristol Myers Squibb Carisma Therapeutics personal fee Abcuro , Inc. outside submit work . Disclaimer : AAAS EurekAlert ! responsible accuracy news release post EurekAlert ! contribute institution use information EurekAlert system . Media Contact Kathleen Venango American Association Cancer Research kathleen.venango@aacr.org Office : 215 - 309 - 4349 Cell : 215 - 290 - 5408 News Release FDG PET / CT image week predict treatment response patient advance melanoma American Association Cancer Research Journal Clinical Cancer Research DOI 10.1158/1078 - 0432.CCR-23 - 2390 Keywords /Health medicine / Diseases disorder / Cancer / Skin cancer / Melanoma /Research method / Imaging Original Source https://www.aacr.org/about-the-aacr/newsroom/news-releases/fdg-pet-ct-imaging-after-just-one-week-may-predict-treatment-response-in-patients-with-advanced-melanoma/ Copyright © 2024 American Association Advancement Science ( AAAS ) facebook.com/EurekAlert @EurekAlert youtube.com/EurekAlert Help / FAQ Services Eligibility Guidelines Contact EurekAlert ! Terms \\u0026 Conditions DMCA Privacy Policy Disclaimer Copyright © 2024 American Association Advancement Science ( AAAS )\",\"nlp_model\":\"en\"},\"threatfeed\":{\"data\":[]}},\"image_overlays\":[],\"occurrences\":[{\"origin\":null,\"term\":\"E-mail Address\"}],\"offending_content\":[{\"origin\":null,\"term\":\"E-mail Address\",\"text\":null}]}",
+			"status": "Open",
+			"timestamp": "2024-01-25T18:15:23+00:00",
+			"rule_name": "GDPR - PII",
+			"last_modified": "2024-01-25T18:15:23Z",
+			"protected_locations": null,
+			"darkweb_term": null,
+			"business_network": null,
+			"reviewed": false,
+			"escalated": false,
+			"network": "advanced_web_search",
+			"protected_social_object": "advanced_test",
+			"notes": "",
+			"reviews": [],
+			"rule_id": 30012,
+			"entity_account": null,
+			"entity_email_receiver_id": null,
+			"tags": []
+		},
+		{
+			"alert_type": "impersonating account",
+			"logs": [
+				{
+					"id": 514126640,
+					"timestamp": "2024-01-25T17:42:50+00:00",
+					"actor": "dev-alert-enricher",
+					"subject": "",
+					"action": "modify tags"
+				},
+				{
+					"id": 514126612,
+					"timestamp": "2024-01-25T17:42:44+00:00",
+					"actor": "",
+					"subject": "",
+					"action": "open"
+				}
+			],
+			"offending_content_url": "https://www.youtube.com/channel/UCWFtdAtwriPM3Huq1EUd2MA",
+			"asset_term": null,
+			"assignee": "",
+			"entity": {
+				"id": 1013101,
+				"name": "Appstores",
+				"image": "https://cdn.zerofox.com/media/entityimages/c31a7mmwjecs2vd50vdaqn0rhjy8hbknss14txwj717zbi7rbpw4x4qrp1mb7dd3.jpg",
+				"labels": [],
+				"entity_group": {
+					"id": 2852,
+					"name": "Default"
+				}
+			},
+			"entity_term": null,
+			"content_created_at": "2024-01-25T12:52:31+00:00",
+			"id": 281740805,
+			"severity": 2,
+			"perpetrator": {
+				"id": 1267310609,
+				"username": "Funny monkey ",
+				"display_name": "Funny monkey ",
+				"account_number": "UCWFtdAtwriPM3Huq1EUd2MA",
+				"image": "https://yt3.ggpht.com/BdfPh42uuclgIf0NukzNyqnvez4dU6nMwiiM6QKAZFmldXxFR3H4gAO7RC1jJL4wOcDr4QqIx9w=s800-c-k-c0xffffffff-no-rj-mo",
+				"network": "youtube",
+				"url": "https://www.youtube.com/channel/UCWFtdAtwriPM3Huq1EUd2MA",
+				"type": "account",
+				"timestamp": "2024-01-25T12:52:31+00:00",
+				"public_url": "",
+				"secondary_url": ""
+			},
+			"rule_group_id": 4,
+			"asset": {
+				"id": 1013101,
+				"name": "Appstores",
+				"image": "https://cdn.zerofox.com/media/entityimages/c31a7mmwjecs2vd50vdaqn0rhjy8hbknss14txwj717zbi7rbpw4x4qrp1mb7dd3.jpg",
+				"labels": [],
+				"entity_group": {
+					"id": 2852,
+					"name": "Default"
+				}
+			},
+			"entered_by": "",
+			"metadata": "{\"content_raw_data\":{\"etag\":\"jGHqMBCQdna9L9mCFxvKTAOmoVU\",\"id\":{\"channelId\":\"UCWFtdAtwriPM3Huq1EUd2MA\",\"kind\":\"youtube#channel\"},\"kind\":\"youtube#searchResult\",\"snippet\":{\"channelId\":\"UCWFtdAtwriPM3Huq1EUd2MA\",\"channelTitle\":\"Funny monkey \",\"description\":\"\",\"liveBroadcastContent\":\"none\",\"publishTime\":\"2024-01-25T12:52:31Z\",\"publishedAt\":\"2024-01-25T12:52:31Z\",\"thumbnails\":{\"default\":{\"url\":\"https://yt3.ggpht.com/BdfPh42uuclgIf0NukzNyqnvez4dU6nMwiiM6QKAZFmldXxFR3H4gAO7RC1jJL4wOcDr4QqIx9w=s88-c-k-c0xffffffff-no-rj-mo\"},\"high\":{\"url\":\"https://yt3.ggpht.com/BdfPh42uuclgIf0NukzNyqnvez4dU6nMwiiM6QKAZFmldXxFR3H4gAO7RC1jJL4wOcDr4QqIx9w=s800-c-k-c0xffffffff-no-rj-mo\"},\"medium\":{\"url\":\"https://yt3.ggpht.com/BdfPh42uuclgIf0NukzNyqnvez4dU6nMwiiM6QKAZFmldXxFR3H4gAO7RC1jJL4wOcDr4QqIx9w=s240-c-k-c0xffffffff-no-rj-mo\"}},\"title\":\"Funny monkey \"}},\"content_type\":\"account\",\"content_url\":\"https://www.youtube.com/channel/UCWFtdAtwriPM3Huq1EUd2MA\",\"enrichment\":{\"analysis-message-mapper\":{\"enterpriseID\":2831,\"entityID\":1013101,\"images\":[{\"field\":\"content.profileImageUrl\",\"item\":\"https://yt3.ggpht.com/BdfPh42uuclgIf0NukzNyqnvez4dU6nMwiiM6QKAZFmldXxFR3H4gAO7RC1jJL4wOcDr4QqIx9w=s800-c-k-c0xffffffff-no-rj-mo\"}],\"network\":\"youtube\",\"relation\":\"impersonator\",\"serviceOrigin\":\"DataCollector\",\"subtype\":\"profile\",\"type\":\"account\",\"urls\":null},\"ocr-analysis\":{\"data\":[{\"details\":{\"bounding_boxes\":[],\"confidences\":[],\"forced_language_library\":null,\"height\":800,\"width\":800,\"words\":[]},\"image\":\"https://yt3.ggpht.com/BdfPh42uuclgIf0NukzNyqnvez4dU6nMwiiM6QKAZFmldXxFR3H4gAO7RC1jJL4wOcDr4QqIx9w=s800-c-k-c0xffffffff-no-rj-mo\"}]}},\"image_overlays\":[],\"matchingEntityName\":\"Monkey\",\"matchingName\":\"Funny monkey \",\"llm_analysis\":{\"additional_information\":{\"asset_name\":\"Funny monkey \"},\"response_text\":\"\\u003cb\\u003eBrand Impersonation Detected\\u003c/b\\u003e\\u003c/br\\u003e\\u003c/br\\u003e\\u003cb\\u003ePerpetrator Matching Name:\\u003c/b\\u003e\\u003c/br\\u003e\\u003cp\\u003eFunny monkey \\u003c/p\\u003e\\u003cb\\u003eAsset Matched Protected Name:\\u003c/b\\u003e\\u003c/br\\u003e\\u003cp\\u003eMonkey\\u003c/p\\u003e\\u003cb\\u003eFoxGPT Response:\\u003c/b\\u003e\\u003c/br\\u003e\\u003cp\\u003eIn the situation where someone with the username 'Funny monkey' is impersonating 'Monkey', it can be considered as an impersonation of the brand due to several reasons. Firstly, the username 'Funny monkey' closely resembles the original brand name 'Monkey', creating confusion among users. This similarity can mislead others into believing that 'Funny monkey' is affiliated with or endorsed by the brand. Secondly, if the brand 'Monkey' is well-known and has a significant online presence, the impersonator may be attempting to exploit the brand's reputation and gain undeserved attention or benefits. This impersonation can potentially harm the brand's image, credibility, and customer trust. Therefore, it is crucial to address such cases promptly to protect the brand's identity and prevent any potential damage caused by misleading or fraudulent activities.\\u003cp\\u003e\"}}",
+			"status": "Open",
+			"timestamp": "2024-01-25T17:42:44+00:00",
+			"rule_name": "Impersonation - Name",
+			"last_modified": "2024-01-25T17:42:50Z",
+			"protected_locations": null,
+			"darkweb_term": null,
+			"business_network": null,
+			"reviewed": false,
+			"escalated": false,
+			"network": "youtube",
+			"protected_social_object": null,
+			"notes": "",
+			"reviews": [],
+			"rule_id": 32,
+			"entity_account": null,
+			"entity_email_receiver_id": null,
+			"tags": [
+				"FoxGPT-Analyzed"
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "py-zfapi"
+version = "0.1.0"
+description = "A Zerofox API wrapper for python projects."
+authors = ["redhelper <rcalvo@zerofox.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+httpx = "^0.26.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+pytest_httpx = "^0.28.0"
+pytest-cov = "^4.1.0"
+pytest-mock = "^3.12.0"
+pytest = "^7.4.4"
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+autoflake = "^2.2.1"
+ipdb = "^0.13.13"
+
+[tool.flake8]
+max-line-length = "100"
+ignore = []
+
+[tool.black]
+line-length = "100"
+
+[tool.isort]
+profile = "black"
+line_length = "100"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

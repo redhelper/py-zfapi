@@ -1,0 +1,12 @@
+.pytest_cache
+__pycache__
+.idea
+.DS_Store
+*.pyc
+cover
+.coverage
+.python-version
+venv/
+.vscode/
+coverage.xml
+coverage.html
